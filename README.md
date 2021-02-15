@@ -42,3 +42,6 @@ This is a nice new change to my code -->
 
   <!-- export TOKEN=`curl -d '{"email":"email@email.com","password":"password"}' -H "Content-Type: application/json" -X POST localhost:80/auth  | jq -r '.token'` -->
 
+<!-- ENV_FILE Content -->
+ JWT_SECRET='myjwtsecret'
+ LOG_LEVEL=DEBUG
