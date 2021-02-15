@@ -37,14 +37,8 @@ Completing the project involves several steps:
 
 For more detail about each of these steps, see the project lesson [here](https://classroom.udacity.com/nanodegrees/nd004/parts/1d842ebf-5b10-4749-9e5e-ef28fe98f173/modules/ac13842f-c841-4c1a-b284-b47899f4613d/lessons/becb2dac-c108-4143-8f6c-11b30413e28d/concepts/092cdb35-28f7-4145-b6e6-6278b8dd7527).
 
+<!-- 
+This is a nice new change to my code -->
 
- return jsonify(token=_get_jwt(user_data).decode('utf-8'))
+  <!-- export TOKEN=`curl -d '{"email":"email@email.com","password":"password"}' -H "Content-Type: application/json" -X POST localhost:80/auth  | jq -r '.token'` -->
 
-  curl --request GET 'http://127.0.0.1:8080/contents' -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MTQzNTI3ODYsIm5iZiI6MTYxMzE0MzE4NiwiZW1haWwiOiJlbWFpbEBlbWFpbC5jb20ifQ.Y-VKhkWRy7HLAsJFP-ergxKy1wvx6rXV4Xe4vPC2p9w" | jq 
-
-  export TOKEN=`curl -d '{"email":"email@email.com","password":"password"}' -H "Content-Type: application/json" -X POST localhost:80/auth  | jq -r '.token'`
-
-  eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MTQzNTI3ODYsIm5iZiI6MTYxMzE0MzE4NiwiZW1haWwiOiJlbWFpbEBlbWFpbC5jb20ifQ.Y-VKhkWRy7HLAsJFP-ergxKy1wvx6rXV4Xe4vPC2p9w
-
-
-  Github token - 8fb1a25801222d9f60f5b9bc1f169b27373fa0e1
